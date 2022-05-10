@@ -15,7 +15,7 @@ class GovReport(ReportSumBase):
 
         self.root = os.path.join('data', 'GovReport')
 
-        self.cached_features_file = os.path.join(self.root, 'cached_govreport')
+        self.cached_features_file = os.path.join(self.root, '{}_cached_govreport'.format(MAP[self.mode]))
 
         self.file_name = os.path.join(self.root, 'govreport_{}_with_oracle.jsonl'.format(MAP[self.mode]))
         self.load_features_from_cache()
