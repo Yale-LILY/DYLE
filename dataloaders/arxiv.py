@@ -15,7 +15,7 @@ class Arxiv(PaperSumBase):
 
         self.root = os.path.join('data', 'arxiv')
 
-        self.cached_features_file = os.path.join(self.root, 'cached_arxiv')
+        self.cached_features_file = os.path.join(self.root, '{}_cached_arxiv'.format(MAP[mode]))
 
         self.file_name = "oracle/arxiv/index_train/"
 
