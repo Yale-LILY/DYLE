@@ -14,7 +14,7 @@ class QMSum(DialSumBase):
         self.root = os.path.join('data', 'QMSum')
 
         # TODO: add qmsum_ before filename, see arxiv.py
-        self.cached_features_file = os.path.join(self.root, 'cached_qmsum')
+        self.cached_features_file = os.path.join(self.root, '{}_cached_qmsum'.format(MAP[self.mode]))
 
         self.file_name = os.path.join(self.root, 'qmsum_{}_with_oracle.jsonl'.format(MAP[self.mode]))
 
