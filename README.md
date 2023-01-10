@@ -27,7 +27,7 @@ pip install nltk==3.6.2 pyrouge==0.1.3 transformers==4.8.1 rouge==1.0.0 datasets
 ### Download the Datasets and Models
 - Download QMSum dataset from https://github.com/Yale-LILY/QMSum
 - Download GovReport dataset from https://github.com/luyang-huang96/LongDocSum/tree/main/Model
-- Download ArXiv from Hugging Face at https://huggingface.co/datasets/arxiv_dataset
+- Download ArXiv from Hugging Face at https://huggingface.co/datasets/scientific_papers
 - We provide cleaned dataset with oracle (in jsonl) for QMSum and GovReport from [Google Drive](https://drive.google.com/drive/folders/1xWP65_D3jmo2147xAYlfHJGAzXpFSdxR?usp=sharing). Download them and place them under `data/`
 - ArXiv dataset and oracles are loaded separately
 
