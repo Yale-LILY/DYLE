@@ -39,6 +39,8 @@ pip install nltk==3.6.2 pyrouge==0.1.3 transformers==4.8.1 rouge==1.0.0 datasets
 ```
 python train.py
 ```
+- The code reproduced using the PyTorch Lightning library can be found at this [link](https://github.com/Jinhyeong-Lim/DYLE-pytorch-lightning)
+
 
 ### Evaluation
 - First download the checkpoint from [Google Drive](https://drive.google.com/drive/folders/1xSYhOB-z9dwKz684yaer3wdXj4ajQnsv?usp=sharing) and place the folders under `./outputs/saved_model/`
