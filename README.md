@@ -28,7 +28,7 @@ pip install nltk==3.6.2 pyrouge==0.1.3 transformers==4.8.1 rouge==1.0.0 datasets
 - Download QMSum dataset from https://github.com/Yale-LILY/QMSum
 - Download GovReport dataset from https://github.com/luyang-huang96/LongDocSum/tree/main/Model
 - Download ArXiv from Hugging Face at https://huggingface.co/datasets/scientific_papers
-- We provide cleaned dataset with oracle (in jsonl) for QMSum and GovReport from [Google Drive](https://drive.google.com/drive/folders/1xWP65_D3jmo2147xAYlfHJGAzXpFSdxR?usp=sharing). Download them and place them under `data/`
+- We provide cleaned dataset with oracle (in jsonl) for QMSum and GovReport from [Google Drive](https://drive.google.com/drive/folders/1I5l9j00e0RVrgM1ayiiCP_R66XuAps38?usp=sharing). Download them and place them under `data/`
 - ArXiv dataset and oracles are loaded separately
 
 ### Training the Model
@@ -43,7 +43,7 @@ python train.py
 
 
 ### Evaluation
-- First download the checkpoint from [Google Drive](https://drive.google.com/drive/folders/1xSYhOB-z9dwKz684yaer3wdXj4ajQnsv?usp=sharing) and place the folders under `./outputs/saved_model/`
+- First download the checkpoint from [Google Drive](https://drive.google.com/drive/folders/1QoAu-C5TfRybe_tbT9oZrp7abbli_eJS?usp=sharing) and place the folders under `./outputs/saved_model/`
 - Set the `self.target_task` flag in `config.py` to choose the target task
 ```
 python test.py
